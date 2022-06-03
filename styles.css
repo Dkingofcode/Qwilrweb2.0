@@ -11,7 +11,7 @@ body{
 }
 
 .heading {
-    background: url(empirenew-york.jpg);;
+    background: url(empirenew-york.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -38,7 +38,6 @@ body{
 }
 
 .heading .fixed-header .logo{
-    border: 1px solid #333;
     display: flex;
     margin: 10px 230px 0px 0px;
     padding: 10px 10px 0px 10px;
@@ -47,13 +46,11 @@ body{
 
 .heading .fixed-header .logo img{
     width: 50px;
-    border: 1px solid #7777;
     border-radius: 40px;
 }
 
 .heading .fixed-header .logo h2{
     color: white;
-    border: 1px solid white;
     margin: 1px 0px 0px 10px;
     padding: 3px 3px 3px 3px;
 }
@@ -172,7 +169,6 @@ padding: 0 5%;*/
 }
 
 .heading .fixed-header .nav-right{
-    border: 1px solid #111;
     margin: 20px 0px 0px 90px;
     padding: 20px 10px 10px 10px;
 
@@ -198,7 +194,6 @@ padding: 0 5%;*/
 }
 
 .heading .Relative-header {
-    border: 1px solid #339;
     margin: 100px  0 0 2px;
     padding: 20px 0 20px 20px;  
     z-index: 2;
@@ -207,7 +202,6 @@ padding: 0 5%;*/
 .heading .Relative-header h1{
     font-size: 70px;
     color: white;
-    border: 1px solid #44e;
     margin: 50px 0px 40px 20px;
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -236,7 +230,6 @@ padding: 0 5%;*/
 
 .heading .Relative-header p{
     color: white;
-    border: 1px solid #555;
     margin: 10px 0px 50px 20px;
     padding: 5px 0px 5px 0px;
     font-size: 19px;
@@ -244,7 +237,6 @@ padding: 0 5%;*/
 }
 
 .heading .button-4 a{
-    border: 1px solid white;
     padding: 0px 0px 0px 0px;  
     text-decoration: none;
     color: white; 
@@ -288,7 +280,6 @@ padding: 0 5%;*/
 .heading .brandlogo .acme{
     height: 69px;
     width: 200px;
-    border: 1px solid white;
     border-radius: 37px 8px 34px 2px;
     color: rgb(96, 96, 238);
     font-size: 30px;
@@ -328,7 +319,6 @@ padding: 0 5%;*/
 
 
 .heading .brandlogo h1{
-    border: 1px solid white;
     margin: 80px 3px 15px 0px;
     font-size: 50px;
     color: white;
@@ -377,7 +367,6 @@ span::after{
 }
 
 .Illustration{
-    border: 1px solid #555;
     background-color: rgb(2, 35, 58);
     display: flex;
     justify-content: space-evenly;
@@ -399,25 +388,24 @@ span::after{
 .Illustration img{
     margin-left: 30px;
     margin-top: 30px;
-    border: 3px solid  rgb(4, 18, 19);
     border-radius: 20px;
     margin-bottom: 40px;
 }
 
 .Illustration .Impress{
-    border: 1px solid #555;
+    color: white;
 }
 
 .Illustration .Accelerate{
-    border: 1px solid #555;
+    color: white;
 }
 
 .Illustration .Automate{
-    border: 1px solid #555;
+    color: white;
 }
 
 .Illustration .Scale{
-    border: 1px solid #555;
+    color: white;
 }
 
 .Stand-out{
@@ -434,25 +422,21 @@ span::after{
 }
 
 .Stand-out .intro .calc{
-    border: 1px solid #333;
     margin-bottom: 20px;
     padding: 10px 0px 10px 40px;
 
 }
 .Stand-out .intro .video{
-    border: 1px solid #333;
     margin-bottom: 20px;
     padding: 10px 0px 10px 40px;
 }
 .Stand-out .intro .pricing{
-    border: 1px solid #333;
     margin-bottom: 20px;
     padding: 10px 0px 10px 40px;
 }
 
 
 .Stand-out .intro a{
-    border: 1px solid #111;
     text-decoration: none;
     margin-bottom: 40px;
     font-size: 20px;
@@ -475,15 +459,11 @@ span::after{
 
 
 .Stand-out .Collab{
-    border: 1px solid #111;
     margin-bottom: 390px;
     display: flex;
     height: 390px;
     z-index: 4;
     position: relative;
-}
-
-.Stand-out .Collab .img-aside{
 }
 
 .Stand-out .Collab img{
@@ -698,7 +678,6 @@ span::after{
 
 
 .A-aside .brandlogo h1{
-    border: 1px solid white;
     margin: 80px 3px 0px 0px;
     font-size: 20px;
     color: white;
@@ -834,14 +813,10 @@ span::after{
     text-decoration: none;
 }
 
-.Proposal{
-    border: 1px solid #111;
-}
 
 .Proposal .custom{
     width: 550px;
     height: 590px;
-    border: 1px solid #111;
     margin-top: 190px;
     margin-left: 40px;
 }
@@ -906,7 +881,6 @@ span::after{
 }*/
 
 .Travel{
-    border: 1px solid #111;
     height: 900px;
     width: 1350px;
     display: flex;
@@ -926,7 +900,6 @@ span::after{
 }
 
 .Travel p{
-    border: 1px solid #111;
     height: 20px;
     margin-top: 30px;
     width: 190px;
@@ -938,8 +911,7 @@ span::after{
     z-index: 4;
 }
 
-.Travel h5{
-    border: 1px solid #111;
+.Travel h5{ 
     height: 20px;
     margin-top: 50px;
     position: relative;
@@ -952,7 +924,6 @@ span::after{
 }
 
 .Travel .Travel-aside{
-    border: 1px solid #111;
     height: 350px;
     width: 760px;
     border-radius: 20px;
@@ -1023,7 +994,6 @@ border-radius: 20px 20px 50px 20px;
     margin-left: 30px;
     color: white;
     font-size: 22px;
-    border: 1px solid #111;
 
 }
 
@@ -1032,11 +1002,9 @@ border-radius: 20px 20px 50px 20px;
     margin-left: 30px;
     color: white;
     font-size: 39px;
-    border: 1px solid #111;
 }
 
-.Travel .Travel-aside a{
-    border: 1px solid #111;
+.Travel .Travel-aside a{ 
     margin-left: 30px;
     color: aqua;
     text-decoration: none;
@@ -1045,7 +1013,6 @@ border-radius: 20px 20px 50px 20px;
 
 
 .On-brand{
-    border: 1px solid #111;
     height: 600px;
     z-index: 4;
     position: relative;
@@ -1316,7 +1283,6 @@ footer .foot-up a{
 
 footer .foot-logo{
  display: flex;
- border: 1px solid #222;
  height: 120px;
  position: relative;
  top: 50px;
